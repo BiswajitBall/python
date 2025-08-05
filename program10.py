@@ -25,3 +25,15 @@ print(sum_axis_1)
 #sum along axis=2
 sum_axis_2 = np.sum(random_matrix, axis=2)
 print(sum_axis_2)
+
+#sum along axis=(0,1)
+sum_axis_01 = np.sum(random_matrix, axis=(0,1))
+print(sum_axis_01)
+
+#sum along axis=(0,2)
+sum_axis_02 = np.sum(random_matrix, axis=(0,2))
+print(sum_axis_02)
+
+#sum along axis=(1,2)
+sum_axis_12 = np.sum(random_matrix, axis=(1,2))
+print(sum_axis_12)
